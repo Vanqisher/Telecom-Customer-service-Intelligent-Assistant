@@ -1,0 +1,39 @@
+[
+    {
+        "id": "28de2a42-ba98-43af-9c88-1b24ce3704f2",
+        "text": "Title:\nخدمة الفاتورة التفصيلية\n\nDescription:\nباستخدام هذه الخدمة، يمكنك الآن الحصول على بيان تفصيلي لمكالمات المحافظات، والمحمول، وخدمة الإنترنت، والخدمة الصوتية. كما يمكنك إستلام فاتورتك التفصيلية من خلال البريد الإلكتروني أو عن طريق الفاكس وفقاً لإختيارك.",
+        "metadata": {
+            "type": "service_overview"
+        }
+    },
+    {
+        "id": "30c07cc2-47f8-44d9-bbd6-c318d8f42d25",
+        "text": "Subscription Method:\nيرجى الإتصال بمركز خدمة العملاء 111",
+        "metadata": {
+            "type": "subscription"
+        }
+    },
+    {
+        "id": "d5540222-3ad5-4a11-b799-4fbd73e2efff",
+        "text": "Free Features:\nتقدم هذه الخدمة مجاناً لبيان استهلاك خدمة الإنترنت، والخدمة الصوتية",
+        "metadata": {
+            "type": "pricing",
+            "category": "free"
+        }
+    },
+    {
+        "id": "eaeb2366-9fb9-470e-b783-4d0d36e09a70",
+        "text": "Paid Features:\nرسوم بيان مكالمات المحافظات، والمحمول\n\nMonthly Fee:\n2 جنيه للفاتورة الشهرية\n\nQuarterly Fee:\n6 جنيه للفاتورة الربع سنوية\n\nBilling Method:\nسيتم إضافتها إلى أقرب فاتورة",
+        "metadata": {
+            "type": "pricing",
+            "category": "paid"
+        }
+    },
+    {
+        "id": "b139a23f-afbb-4cf5-896b-8be088e33890",
+        "text": "Activation Time:\nيتم تشغيل الخدمة خلال 48 ساعة عمل.",
+        "metadata": {
+            "type": "activation"
+        }
+    }
+]

@@ -1,0 +1,279 @@
+[
+    {
+        "id": "baa990d5-5c61-4508-8d14-0077c4f24435",
+        "text": "Company Name (AR): الشركة المصرية للاتصالات\nBrand: WE\nEstablishment Year: 1854\nIndustry: الاتصالات وتكنولوجيا المعلومات\nOwnership: شركة مساهمة مصرية (تمتلك الدولة غالبية أسهمها ممثلة في وزارة الاتصالات وتكنولوجيا المعلومات).\n\nSummary:\nتعد المصرية للاتصالات أول مشغل متكامل للاتصالات في مصر، وتعتبر من أقدم وأعرق شركات الاتصالات في الشرق الأوسط وأفريقيا حيث تمتد جذورها إلى عام 1854 مع إنشاء أول خط تلغراف يربط بين القاهرة والإسكندرية. تقدم الشركة حالياً خدمات الهاتف الثابت، الإنترنت الأرضي عريض النطاق (أكبر شبكة في مصر)، وخدمات المحمول، بالإضافة إلى خدمات مبيعات الجملة كحامل دولي رئيسي لحركة الإنترنت عبر كابلات البيانات البحرية.",
+        "metadata": {
+            "type": "company_overview",
+            "section": "general_information"
+        }
+    },
+    {
+        "id": "1f4a65ac-9a8f-4fee-b9bb-52cdd9b29e76",
+        "text": "Key Achievement 1:\nالحصول على شهادة 'أفضل صاحب عمل' لعام 2026 (Top Employer 2026).",
+        "metadata": {
+            "type": "achievement",
+            "index": 0
+        }
+    },
+    {
+        "id": "ad8ed1c5-db8d-4d19-95a2-8b2d62eceefb",
+        "text": "Key Achievement 2:\nتحويل البنية التحتية للنحاس إلى ألياف ضوئية (FTTH) لرفع سرعات الإنترنت في مصر.",
+        "metadata": {
+            "type": "achievement",
+            "index": 1
+        }
+    },
+    {
+        "id": "416a9e37-7ac5-42c0-88bb-8a4adee48960",
+        "text": "Key Achievement 3:\nالاستحواذ على أول رخصة لتشغيل خدمات الجيل الخامس (5G) في مصر.",
+        "metadata": {
+            "type": "achievement",
+            "index": 2
+        }
+    },
+    {
+        "id": "c0d8f9f8-29bd-4bb2-bc59-ba71e8f2e68a",
+        "text": "Key Achievement 4:\nالركيزة الأساسية لربط كابلات الإنترنت الدولية البحرية بين الشرق والغرب بفضل موقع مصر الجغرافي.",
+        "metadata": {
+            "type": "achievement",
+            "index": 3
+        }
+    },
+    {
+        "id": "470925a2-1b6e-4739-b3c8-a430d89b70ab",
+        "text": "Name: لبنى هلال\nTitle: رئيس مجلس الإدارة",
+        "metadata": {
+            "type": "board_member",
+            "role": "رئيس مجلس الإدارة",
+            "index": 0
+        }
+    },
+    {
+        "id": "efa0afb4-6a78-445f-bdd6-bc32f7fbdb96",
+        "text": "Name: تامر المهدي\nTitle: العضو المنتدب والرئيس التنفيذي",
+        "metadata": {
+            "type": "board_member",
+            "role": "العضو المنتدب والرئيس التنفيذي",
+            "index": 1
+        }
+    },
+    {
+        "id": "1e80e94b-52d8-452c-8c34-652b4c4efe56",
+        "text": "Name: أحمد عبد الرحمن\nTitle: عضو مجلس إدارة غير تنفيذي",
+        "metadata": {
+            "type": "board_member",
+            "role": "عضو مجلس إدارة غير تنفيذي",
+            "index": 2
+        }
+    },
+    {
+        "id": "baa2dc8f-5812-4c42-baf4-d1cde9e925a4",
+        "text": "Name: طارق أبو علم\nTitle: عضو مجلس الإدارة غير تنفيذي",
+        "metadata": {
+            "type": "board_member",
+            "role": "عضو مجلس الإدارة غير تنفيذي",
+            "index": 3
+        }
+    },
+    {
+        "id": "086ddd1e-cbf0-4c55-9e48-e69af23e9923",
+        "text": "Name: طارق طنطاوي\nTitle: عضو مجلس الإدارة غير تنفيذي",
+        "metadata": {
+            "type": "board_member",
+            "role": "عضو مجلس الإدارة غير تنفيذي",
+            "index": 4
+        }
+    },
+    {
+        "id": "995f5933-a8fd-4106-9090-68e68683b35a",
+        "text": "Name: هاني السمرة\nTitle: عضو مجلس الإدارة غير تنفيذي",
+        "metadata": {
+            "type": "board_member",
+            "role": "عضو مجلس الإدارة غير تنفيذي",
+            "index": 5
+        }
+    },
+    {
+        "id": "7e897989-a9fc-443b-8208-437668a51fe1",
+        "text": "Name: إسلام ذكري\nTitle: عضو مجلس إدارة غير تنفيذي",
+        "metadata": {
+            "type": "board_member",
+            "role": "عضو مجلس إدارة غير تنفيذي",
+            "index": 6
+        }
+    },
+    {
+        "id": "feb9693f-030d-4211-b764-3683adbb6c24",
+        "text": "Name: محمد حنفي\nTitle: عضو مجلس الإدارة ممثل العاملين",
+        "metadata": {
+            "type": "board_member",
+            "role": "عضو مجلس الإدارة ممثل العاملين",
+            "index": 7
+        }
+    },
+    {
+        "id": "e427fb32-f8b7-4127-bfee-569c5edcd772",
+        "text": "Name: محمد بركات\nTitle: عضو مجلس إدارة مستقل",
+        "metadata": {
+            "type": "board_member",
+            "role": "عضو مجلس إدارة مستقل",
+            "index": 8
+        }
+    },
+    {
+        "id": "5a3ddc57-e94d-43a7-a12b-c8eff431c4d7",
+        "text": "Name: جرجس عبد الشهيد\nTitle: عضو مجلس إدارة مستقل",
+        "metadata": {
+            "type": "board_member",
+            "role": "عضو مجلس إدارة مستقل",
+            "index": 9
+        }
+    },
+    {
+        "id": "e825a65e-ab36-4f0d-a42e-c49fcd9b5d58",
+        "text": "Name: عاكف المغربي\nTitle: عضو مجلس إدارة مستقل",
+        "metadata": {
+            "type": "board_member",
+            "role": "عضو مجلس إدارة مستقل",
+            "index": 10
+        }
+    },
+    {
+        "id": "5c222cec-cf8f-48ce-9b9d-ddbfac4e8fb5",
+        "text": "Name: حسام سيف الدين\nTitle: عضو مجلس إدارة مستقل",
+        "metadata": {
+            "type": "board_member",
+            "role": "عضو مجلس إدارة مستقل",
+            "index": 11
+        }
+    },
+    {
+        "id": "8d8345c9-4995-45d4-a42e-512cc7fb4cd1",
+        "text": "Name: تامر المهدي\nTitle: العضو المنتدب والرئيس التنفيذي",
+        "metadata": {
+            "type": "executive_management",
+            "role": "العضو المنتدب والرئيس التنفيذي",
+            "index": 0
+        }
+    },
+    {
+        "id": "003dafbd-4a3f-46cd-bdce-caed8ed4ed7d",
+        "text": "Name: الحسيني عادل\nTitle: نائب الرئيس التنفيذي لشئون المناطق",
+        "metadata": {
+            "type": "executive_management",
+            "role": "نائب الرئيس التنفيذي لشئون المناطق",
+            "index": 1
+        }
+    },
+    {
+        "id": "2a6e94dc-6930-496e-bb62-7771b493f67e",
+        "text": "Name: رامي كاطو\nTitle: نائب الرئيس التنفيذي للشئون التجارية للشركات والمؤسسات",
+        "metadata": {
+            "type": "executive_management",
+            "role": "نائب الرئيس التنفيذي للشئون التجارية للشركات والمؤسسات",
+            "index": 2
+        }
+    },
+    {
+        "id": "51879bfd-07d5-40c7-a74b-6c2406ed6d22",
+        "text": "Name: وائل حنفي\nTitle: نائب الرئيس التنفيذي للشئون المالية",
+        "metadata": {
+            "type": "executive_management",
+            "role": "نائب الرئيس التنفيذي للشئون المالية",
+            "index": 3
+        }
+    },
+    {
+        "id": "2d1f9edb-f7f4-49ea-a93b-c8af4d23564e",
+        "text": "Name: إسماعيل سعيد\nTitle: نائب الرئيس التنفيذي للشئون الفنية",
+        "metadata": {
+            "type": "executive_management",
+            "role": "نائب الرئيس التنفيذي للشئون الفنية",
+            "index": 4
+        }
+    },
+    {
+        "id": "3cfdd6c9-c99e-4e52-b46c-b6760e01532e",
+        "text": "Name: أحمد الفولي\nTitle: نائب الرئيس التنفيذي لنظم وتكنولوجيا المعلومات",
+        "metadata": {
+            "type": "executive_management",
+            "role": "نائب الرئيس التنفيذي لنظم وتكنولوجيا المعلومات",
+            "index": 5
+        }
+    },
+    {
+        "id": "8c833408-a1e1-4168-b84b-706b37d6b6b7",
+        "text": "Name: محمد التوني\nTitle: نائب الرئيس التنفيذي للشئون التجارية للأفراد",
+        "metadata": {
+            "type": "executive_management",
+            "role": "نائب الرئيس التنفيذي للشئون التجارية للأفراد",
+            "index": 6
+        }
+    },
+    {
+        "id": "c224c758-f6cb-4a63-9851-595068240433",
+        "text": "Year 1854:\nبداية صناعة الاتصالات في مصر وافتتاح أول خط تلغراف يربط بين القاهرة والإسكندرية.",
+        "metadata": {
+            "type": "timeline_event",
+            "year": 1854,
+            "index": 0
+        }
+    },
+    {
+        "id": "e923f412-974a-4132-babc-5bdd0ac3a9ed",
+        "text": "Year 1881:\nإنشاء أول خط تليفون يربط بين القاهرة والإسكندرية.",
+        "metadata": {
+            "type": "timeline_event",
+            "year": 1881,
+            "index": 1
+        }
+    },
+    {
+        "id": "fef18874-d51a-4269-a6ad-1c9b467954e6",
+        "text": "Year 1883:\nتمديد الخطوط التليفونية إلى بورسعيد والإسماعيلية والسويس ومدن الزقازيق والمنصورة وطنطا.",
+        "metadata": {
+            "type": "timeline_event",
+            "year": 1883,
+            "index": 2
+        }
+    },
+    {
+        "id": "47ebd7dd-978b-4743-8b96-d2c09faf4539",
+        "text": "Year 1918:\nشراء الحكومة المصرية للشركة الشرقية (الشركة التي سبقت تأسيس المصرية للاتصالات) بمبلغ 755,000 جنيهًا، ونقل ملكيتها إلى سلطة البرق والهاتف، وإنشاء مصلحة سكك حديد وتلغرافات وتليفونات الحكومة المصرية.",
+        "metadata": {
+            "type": "timeline_event",
+            "year": 1918,
+            "index": 3
+        }
+    },
+    {
+        "id": "a6ec1e4c-1ef5-4658-8b7b-787765aedaea",
+        "text": "Year 1927:\nالملك فؤاد الأول يفتتح سنترال المدينة بشارع رمسيس (الملكة نازلي سابقاً).",
+        "metadata": {
+            "type": "timeline_event",
+            "year": 1927,
+            "index": 4
+        }
+    },
+    {
+        "id": "2e5b9c95-e650-4c53-a638-6f6570e9594e",
+        "text": "Museum Name: متحف الاتصالات\nEstablishment Date: 2010-05-27\n\nObjective:\nالمحافظة على تراث وتاريخ الاتصالات في مصر منذ عام 1882، ليكون شاهداً على العصر إزاء التقدم التكنولوجي الذي وصلت إليه الشركة عبر الحقب المختلفة، وإتاحة الفرصة للدارسين بقطاع التدريب لمشاهدة مراحل تطور تكنولوجيا الاتصالات.\n\nHistorical Importance:\nيعد واحداً من أهم أدوات التوثيق ومنصات التوعية لإحياء التراث الغني للمصرية للاتصالات الممتد لأكثر من 170 عاماً. وتم بالتنسيق مع المجلس الأعلى للآثار توثيق مقتنيات المتحف كآثار وفقاً لقانون حماية الموارد الأثرية رقم 117 لسنة 1983 وتعديلاته.\n\nLocation:\nداخل مبنى قطاع التدريب والتطوير التابع للشركة المصرية للاتصالات\n5 شارع الشهيد، الحي السادس، مدينة نصر، أمام جامعة الأزهر، القاهرة، مصر.\n\nDepartments:\n- الشبكة المحلية\n- أجهزة الهاتف\n- محدد أعطال الكابلات\n- المفاتيح\n- السنترالات\n- الإرسال\n- الألياف الضوئية\n- نقل البيانات\n- أجهزة العرض والميكروفيلم\n- الوثائق التاريخية\n- المتحف الخارجي",
+        "metadata": {
+            "type": "museum_info"
+        }
+    },
+    {
+        "id": "f01365af-1af6-4849-9665-307bd0a35956",
+        "text": "المقر الرئيسي للمصرية للاتصالات (القرية الذكية)\nAddress: مبنى B7، الكيلو 28 طريق القاهرة - الإسكندرية الصحراوي، القرية الذكية, أبو رواش، الجيزة، مصر.\nGoogle Maps: https://maps.app.goo.gl/tZ7iF6K6bZqFv7jQ8\nCoordinates: (30.0792, 31.0204)",
+        "metadata": {
+            "type": "hq_location"
+        }
+    },
+    {
+        "id": "f597bcfc-7bbd-41a5-8702-12f46455cd20",
+        "text": "Official Website: https://www.te.eg\n\nMobile Apps:\n- iOS: https://apps.apple.com/eg/app/my-we/id1413151505\n- Android: https://play.google.com/store/apps/details?id=com.ucare.we\n\nSocial Media:\n- Facebook: https://www.facebook.com/TelecomEgypt\n- X (Twitter): https://x.com/telecomegypt\n- YouTube: https://www.youtube.com/channel/UCLl_SOH0KD8-Hv1H1yetEyw\n- Instagram: https://www.instagram.com/telecom.egypt/\n- LinkedIn: https://www.linkedin.com/company/telecom-egypt/",
+        "metadata": {
+            "type": "official_links"
+        }
+    }
+]

@@ -1,0 +1,69 @@
+{
+  "payment_methods": [
+    {
+      "provider_arabic": "وي",
+      "provider_english": "WE",
+      "description": "خدمة الدفع من خلال WE"
+    },
+    {
+      "provider_arabic": "فوري",
+      "provider_english": "Fawry",
+      "description": "خدمة الدفع من خلال فوري"
+    },
+    {
+      "provider_arabic": "بي",
+      "provider_english": "Bee",
+      "description": "خدمة الدفع من خلال Bee"
+    },
+    {
+      "provider_arabic": "البريد المصري",
+      "provider_english": "Egypt Post",
+      "description": "خدمة الدفع من خلال البريد المصري"
+    },
+    {
+      "provider_arabic": "مصاري",
+      "provider_english": "Masary",
+      "description": "خدمة الدفع من خلال مصاري"
+    },
+    {
+      "provider_arabic": "أمان",
+      "provider_english": "Aman",
+      "description": "خدمة الدفع من خلال أمان"
+    },
+    {
+      "provider_arabic": "خدماتي",
+      "provider_english": "Khadamaty",
+      "description": "خدمة الدفع من خلال خدماتي"
+    },
+    {
+      "provider_arabic": "ممكن",
+      "provider_english": "Mokan",
+      "description": "خدمة الدفع من خلال ممكن"
+    },
+    {
+      "provider_arabic": "ضامن",
+      "provider_english": "Damen",
+      "description": "خدمة الدفع من خلال ضامن"
+    },
+    {
+      "provider_arabic": "أوباي",
+      "provider_english": "OPay",
+      "description": "خدمة الدفع من خلال OPay"
+    },
+    {
+      "provider_arabic": "سوبر باي",
+      "provider_english": "SuperPay",
+      "description": "خدمة الدفع من خلال Superpay"
+    },
+    {
+      "provider_arabic": "خالص",
+      "provider_english": "Khales",
+      "description": "خدمة الدفع من خلال Khales"
+    },
+    {
+      "provider_arabic": "كاش كول",
+      "provider_english": "Cashcall",
+      "description": "خدمة الدفع من خلال Cashcall"
+    }
+  ]
+}

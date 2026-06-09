@@ -1,0 +1,581 @@
+[
+    {
+        "id": "6e6a3353-7d59-4dd6-b020-209be25ca5a2",
+        "text": "Program Overview:\nبرنامج المكافآت المصمم لعملاء WE لتقديم مجموعة من العروض تتناسب مع كافة الاحتياجات من خلال تجميع النقاط واستبدالها لدى الشركاء.",
+        "metadata": {
+            "type": "overview",
+            "section": "program_overview"
+        }
+    },
+    {
+        "id": "99a68776-d55f-4bc0-89b0-d9651a2338a7",
+        "text": "Points Tier: الأولى\nAccumulation Rate: 0.33\nPoints Rule: 100 جنيه = 33 نقطة",
+        "metadata": {
+            "type": "points_earning",
+            "tier": "الأولى",
+            "index": 0
+        }
+    },
+    {
+        "id": "26802214-40d6-4593-946c-8f9a6c995363",
+        "text": "Points Tier: الثانية\nAccumulation Rate: 0.5\nPoints Rule: 100 جنيه = 50 نقطة",
+        "metadata": {
+            "type": "points_earning",
+            "tier": "الثانية",
+            "index": 1
+        }
+    },
+    {
+        "id": "fc85c621-a54a-4d34-8b7e-89236c3ed27d",
+        "text": "Points Tier: الثالثة\nAccumulation Rate: 1.0\nPoints Rule: 100 جنيه = 100 نقطة",
+        "metadata": {
+            "type": "points_earning",
+            "tier": "الثالثة",
+            "index": 2
+        }
+    },
+    {
+        "id": "e3b5a108-bb09-4437-bbb0-3e53eefdb306",
+        "text": "Points Tier: الرابعة\nAccumulation Rate: 2.0\nPoints Rule: 100 جنيه = 200 نقطة",
+        "metadata": {
+            "type": "points_earning",
+            "tier": "الرابعة",
+            "index": 3
+        }
+    },
+    {
+        "id": "e7887b07-98fe-4e0b-9810-f4d1d8463c96",
+        "text": "Term 1:\nيتم احتساب وتجميع النقاط لعملاء أنظمة الفاتورة على المبالغ المسددة من الفواتير المستحقة، باستثناء مبالغ الضرائب والأقساط حيث لا تُحتسب ولا تُجمع عليها نقاط.",
+        "metadata": {
+            "type": "terms_and_conditions",
+            "index": 0
+        }
+    },
+    {
+        "id": "d50581b7-dac9-4903-af7f-8b0255be4020",
+        "text": "Term 2:\nيتم احتساب وتجميع النقاط لعملاء أنظمة الكارت أو الدفع المسبق عن المبالغ المستخدمة من الرصيد في إحدى الخدمات المؤهلة فقط.",
+        "metadata": {
+            "type": "terms_and_conditions",
+            "index": 1
+        }
+    },
+    {
+        "id": "e366b8df-fc72-4aea-9f77-e3e65175fe1c",
+        "text": "Term 3:\nيمكن لعملاء WE Bonus كسب نقطة واحدة إضافية مقابل كل 20 جنيه يتم إنفاقها نقداً أو بالبطاقة الائتمانية عند شراء أجهزة أو إكسسوارات من فروع WE، ولا تُحتسب نقاط عند دفع الفواتير بهذه الطريقة.",
+        "metadata": {
+            "type": "terms_and_conditions",
+            "index": 2
+        }
+    },
+    {
+        "id": "0cec94ec-d100-451b-a91e-5441f8bb66e1",
+        "text": "Term 4:\nصلاحية النقاط المضافة أو المُجمعة هي سنة واحدة تبدأ من تاريخ إضافتها.",
+        "metadata": {
+            "type": "terms_and_conditions",
+            "index": 3
+        }
+    },
+    {
+        "id": "455c1a8c-9e70-4f7b-8ac6-3a5c1fba95b5",
+        "text": "Term 5:\nلكل عميل محفظة نقاط واحدة فقط في برنامج WE Bonus للأفراد، ويتم تجميع كل النقاط فيها حتى إذا كان لديه أكثر من خدمة مؤهلة للبرنامج.",
+        "metadata": {
+            "type": "terms_and_conditions",
+            "index": 4
+        }
+    },
+    {
+        "id": "c8b10bd2-3237-4df3-afe4-bba114fec89c",
+        "text": "Term 6:\nكل محفظة نقاط مرتبطة برقم محمول للتواصل، ويُستخدم هذا الرقم في استقبال رسائل البرنامج (المرسلة باسم WE Bonus) وكذلك في إتمام عمليات الاستبدال.",
+        "metadata": {
+            "type": "terms_and_conditions",
+            "index": 5
+        }
+    },
+    {
+        "id": "fbd3f82f-e220-45e6-914b-e6b3c48dce81",
+        "text": "Term 7:\nلا يُسمح باستخدام نفس رقم التواصل لأكثر من محفظة نقاط، ويشترط أن يكون رقم التواصل رقم محمول فقط.",
+        "metadata": {
+            "type": "terms_and_conditions",
+            "index": 6
+        }
+    },
+    {
+        "id": "096ca1ab-abf3-4a1f-8383-aa175bfc8994",
+        "text": "Term 8:\nيمكن للعميل الاستعلام عن رصيد النقاط وقيمتها، ومعرفة أقرب النقاط التي ستنتهي صلاحيتها، بالإضافة إلى مراجعة المعاملات السابقة، وذلك من خلال تطبيق My WE أو من خلال الدخول على حسابك على www.te.eg، ثم اختيار أحد الخدمات المؤهلة للانضمام للبرنامج.",
+        "metadata": {
+            "type": "terms_and_conditions",
+            "index": 7
+        }
+    },
+    {
+        "id": "e62fa638-ea2b-4790-b82e-643c6e81fcd3",
+        "text": "Term 9:\nيتم استبدال كل 100 نقطة مكتسبة بقيمة 5 جنيهات.",
+        "metadata": {
+            "type": "terms_and_conditions",
+            "index": 8
+        }
+    },
+    {
+        "id": "9ff25c98-59b5-47a0-a3d3-93f9867148b3",
+        "text": "Term 10:\nيمكن للعميل استبدال النقاط من خلال زيارة أحد فروع الشركاء في برنامج النقاط أو عبر التطبيق/الموقع الإلكتروني في حالة الأونلاين.",
+        "metadata": {
+            "type": "terms_and_conditions",
+            "index": 9
+        }
+    },
+    {
+        "id": "99027af5-c0ec-4a32-ad14-6cd774b1298e",
+        "text": "Term 11:\nيمكن استبدال النقاط من خلال بعض فروع WE بأجهزة أو إكسسوارات.",
+        "metadata": {
+            "type": "terms_and_conditions",
+            "index": 10
+        }
+    },
+    {
+        "id": "10d779c3-6a11-40a8-b1bb-dcb54680eee0",
+        "text": "Term 12:\nفي جميع الحالات، لا يمكن تحويل النقاط من محفظة إلى أخرى أو من عميل لآخر، كما لا يجوز استبدالها بمبالغ نقدية مقدماً، أو استخدامها في سداد فواتير أي من خدمات شركة WE.",
+        "metadata": {
+            "type": "terms_and_conditions",
+            "index": 11
+        }
+    },
+    {
+        "id": "2af9ec87-b573-472e-a6c3-4c4c67b781e8",
+        "text": "Warning 1:\nيجب الحرص على عدم مشاركة رمز الـ OTP مع أي شخص غير مختص بعملية الإستبدال.",
+        "metadata": {
+            "type": "important_warning",
+            "index": 0
+        }
+    },
+    {
+        "id": "de5db7f2-838f-449a-82a7-962597766803",
+        "text": "Warning 2:\nيجب عدم الإستجابة لأي رسالة مجهولة الهوية.",
+        "metadata": {
+            "type": "important_warning",
+            "index": 1
+        }
+    },
+    {
+        "id": "32b9ee2a-6afc-4b9d-be78-8a5eb153eaa8",
+        "text": "Warning 3:\nيجب التأكد من تحديث رقم التواصل الخاص بك في حال إيقافه أو تغييره أو إلغائه أو نقل ملكيته لشخص آخر.",
+        "metadata": {
+            "type": "important_warning",
+            "index": 2
+        }
+    },
+    {
+        "id": "d007aca7-1361-4b80-bf2c-98595df7c566",
+        "text": "Warning 4:\nيحق للشركة تعديل البرنامج في أي وقت ووفقاً للقوانين واللوائح المنظمة.",
+        "metadata": {
+            "type": "important_warning",
+            "index": 3
+        }
+    },
+    {
+        "id": "f0efe044-0ae4-45a5-9d8c-bdd419839ff4",
+        "text": "Warning 5:\nجميع خدمات WE Bonus وتصفح التطبيق متاحه داخل مصر فقط.",
+        "metadata": {
+            "type": "important_warning",
+            "index": 4
+        }
+    },
+    {
+        "id": "29f2c7e6-b3f0-4fb7-a074-806f1e34aa8c",
+        "text": "Bonus Deals Description:\nعالم جديد يقدم للعملاء التوفير من خلال مجموعة من العروض والخصومات في فئات عديدة تشمل (مطاعم - أزياء - صحة وجمال - إلكترونيات ....).",
+        "metadata": {
+            "type": "bonus_deals",
+            "section": "description"
+        }
+    },
+    {
+        "id": "72a81a05-1f92-4bd7-87a2-beebd2819024",
+        "text": "Step 1: الدخول وتصفح العروض المتاحة من خلال تطبيق My WE أو من خلال الدخول على حسابك على www.te.eg",
+        "metadata": {
+            "type": "bonus_deals_steps",
+            "index": 0
+        }
+    },
+    {
+        "id": "9152f4c9-9547-487f-950d-d067dfa1a253",
+        "text": "Step 2: اختيار أحد الخدمات المؤهلة للانضمام للبرنامج.",
+        "metadata": {
+            "type": "bonus_deals_steps",
+            "index": 1
+        }
+    },
+    {
+        "id": "4296289d-4630-4ba7-835b-d7847f161ec4",
+        "text": "Step 3: الضغط على 'تفاصيل' من أيقونة WE Bonus.",
+        "metadata": {
+            "type": "bonus_deals_steps",
+            "index": 2
+        }
+    },
+    {
+        "id": "0ccf0245-e148-477a-9acb-a1beb8c21a70",
+        "text": "Step 4: الضغط على أيقونة Bonus Deals.",
+        "metadata": {
+            "type": "bonus_deals_steps",
+            "index": 3
+        }
+    },
+    {
+        "id": "76b1d385-457e-4965-831f-de60b015f7dd",
+        "text": "Step 5: اختيار العرض المناسب من قوائم الشركاء، واتباع الخطوات المحددة.",
+        "metadata": {
+            "type": "bonus_deals_steps",
+            "index": 4
+        }
+    },
+    {
+        "id": "270586d0-06d8-4185-85aa-912f6c7c0fce",
+        "text": "Branch Name: TE Smart Village\nGovernorate: الجيزة\nAddress: طريق مصر الإسكندرية الصحراوي ك 28 القرية الذكية - مبنى المصرية للاتصالات B7",
+        "metadata": {
+            "type": "branch",
+            "governorate": "الجيزة",
+            "index": 0
+        }
+    },
+    {
+        "id": "2b2bb44f-2861-4708-b195-89eb119c4a14",
+        "text": "Branch Name: فرع الدقي\nGovernorate: الجيزة\nAddress: 94 شارع التحرير - الدقي",
+        "metadata": {
+            "type": "branch",
+            "governorate": "الجيزة",
+            "index": 1
+        }
+    },
+    {
+        "id": "19bff84d-6b80-4523-aadc-69c5882e4676",
+        "text": "Branch Name: المنيا\nGovernorate: المنيا\nAddress: شارع المحطة أمام محطة قطار المنيا - ش سعد زغلول - المنيا",
+        "metadata": {
+            "type": "branch",
+            "governorate": "المنيا",
+            "index": 2
+        }
+    },
+    {
+        "id": "1d4143e8-cdb2-49f3-9f6f-23a4f7b3b045",
+        "text": "Branch Name: سنترال المنشية\nGovernorate: الإسكندرية\nAddress: شارع سعد زغلول",
+        "metadata": {
+            "type": "branch",
+            "governorate": "الإسكندرية",
+            "index": 3
+        }
+    },
+    {
+        "id": "986f1c79-296a-40ad-974f-c61df4a5108b",
+        "text": "Branch Name: سيتي سنتر المعادي\nGovernorate: القاهرة\nAddress: سيتي سنتر المعادي - محل رقم 24 - الطابق الأرضي - أمام كارفور",
+        "metadata": {
+            "type": "branch",
+            "governorate": "القاهرة",
+            "index": 4
+        }
+    },
+    {
+        "id": "78c6e7cf-b818-4f35-9c9f-5f6a9fe19959",
+        "text": "Branch Name: سان ستيفانو مول\nGovernorate: الإسكندرية\nAddress: سان ستيفانو مول",
+        "metadata": {
+            "type": "branch",
+            "governorate": "الإسكندرية",
+            "index": 5
+        }
+    },
+    {
+        "id": "b36b2c14-187c-4dc6-9013-9e1d5a85b3bc",
+        "text": "Branch Name: فرع شبرا\nGovernorate: القاهرة\nAddress: 101 شارع خلوصي - شبرا",
+        "metadata": {
+            "type": "branch",
+            "governorate": "القاهرة",
+            "index": 6
+        }
+    },
+    {
+        "id": "4ebb34c2-99de-4f22-a8c4-85004da9ce71",
+        "text": "Branch Name: فرع العبور\nGovernorate: القاهرة\nAddress: محل 120 و121 بالمركز التجاري جولف سيتي مول - متفرع من طريق حسني مبارك - طريق مصر إسماعيلية الصحراوي",
+        "metadata": {
+            "type": "branch",
+            "governorate": "القاهرة",
+            "index": 7
+        }
+    },
+    {
+        "id": "a3eadb3a-ee3a-4cc4-9aac-bfc5ef310a8a",
+        "text": "Branch Name: فرع ميامي\nGovernorate: الإسكندرية\nAddress: 568 طريق الكورنيش - سيدي بشر - بعد فندق رمادا - بجوار مقهى العزيزية",
+        "metadata": {
+            "type": "branch",
+            "governorate": "الإسكندرية",
+            "index": 8
+        }
+    },
+    {
+        "id": "03295467-bc88-4a9f-8eae-0d4e691a9c57",
+        "text": "Branch Name: سيتي سنترز مول\nGovernorate: القاهرة\nAddress: مول سيتي ستارز - الدور الأول - المرحلة الأولى - ممر 2 - أمام أورانج",
+        "metadata": {
+            "type": "branch",
+            "governorate": "القاهرة",
+            "index": 9
+        }
+    },
+    {
+        "id": "910f4e80-acab-4253-8894-e51b5302401c",
+        "text": "Branch Name: سنترال المهندسين\nGovernorate: الجيزة\nAddress: شارع أحمد عرابي - بجوار عمر أفندي",
+        "metadata": {
+            "type": "branch",
+            "governorate": "الجيزة",
+            "index": 10
+        }
+    },
+    {
+        "id": "48a4e581-ce5f-48fe-8592-147070b13dd8",
+        "text": "Branch Name: فرع مول العرب\nGovernorate: الجيزة\nAddress: داخل مول العرب، بوابة 23، محل رقم G-13، ميدان جهينة، 6 أكتوبر، الجيزة",
+        "metadata": {
+            "type": "branch",
+            "governorate": "الجيزة",
+            "index": 11
+        }
+    },
+    {
+        "id": "c2272b82-dfc1-44d1-ae0b-5aadc5357a43",
+        "text": "Branch Name: فرع مدينة نصر\nGovernorate: القاهرة\nAddress: 80 ش مكرم عبيد، مدينة نصر، أمام مسجد الإيمان",
+        "metadata": {
+            "type": "branch",
+            "governorate": "القاهرة",
+            "index": 12
+        }
+    },
+    {
+        "id": "c2ead843-5cd8-4100-89b7-d75069aefa74",
+        "text": "Branch Name: سيتي سنتر الإسكندرية\nGovernorate: الإسكندرية\nAddress: طريق إسكندرية القاهرة الصحراوي، مول إسكندرية سيتي سنتر، أمام هايبر كارفور",
+        "metadata": {
+            "type": "branch",
+            "governorate": "الإسكندرية",
+            "index": 13
+        }
+    },
+    {
+        "id": "17bbf9ef-22d0-44a4-8020-fb3969d9bb98",
+        "text": "Branch Name: Avenue Mall\nGovernorate: القاهرة\nAddress: مدينة الرحاب، مجموعة 38، أفينيو مول، محل 37، الرحاب 2",
+        "metadata": {
+            "type": "branch",
+            "governorate": "القاهرة",
+            "index": 14
+        }
+    },
+    {
+        "id": "339752b7-8436-4a6e-98fc-8e37ce2132b7",
+        "text": "Branch Name: فرع مول مصر\nGovernorate: الجيزة\nAddress: Mall Masr shop number ( B053 )",
+        "metadata": {
+            "type": "branch",
+            "governorate": "الجيزة",
+            "index": 15
+        }
+    },
+    {
+        "id": "c3e29474-7e35-4e55-af4a-08a7e3cb3b80",
+        "text": "Branch Name: فرع داندي مول\nGovernorate: الجيزة\nAddress: داندي مول، الدور الأرضي، أمام كارفور، محل رقم 38",
+        "metadata": {
+            "type": "branch",
+            "governorate": "الجيزة",
+            "index": 16
+        }
+    },
+    {
+        "id": "93249a12-11e3-44e6-b841-857fdcfd9644",
+        "text": "Branch Name: فرع المعادي\nGovernorate: القاهرة\nAddress: المعادي، 7/8 شارع النصر، رقم 4",
+        "metadata": {
+            "type": "branch",
+            "governorate": "القاهرة",
+            "index": 17
+        }
+    },
+    {
+        "id": "1fb1622a-0818-491f-945e-d2820f2bace7",
+        "text": "Branch Name: فرع هايبر وان / زايد\nGovernorate: الجيزة\nAddress: الوحدة رقم 14، هايبر وان مول، مدخل رقم 1، أمام فرع البنك الأهلي الإلكتروني، امتداد محور 26 يوليو، الشيخ زايد",
+        "metadata": {
+            "type": "branch",
+            "governorate": "الجيزة",
+            "index": 18
+        }
+    },
+    {
+        "id": "e04ddc39-1fee-4560-85f8-a1f6b775410d",
+        "text": "Branch Name: كايرو فيستيفال سيتي مول\nGovernorate: القاهرة\nAddress: شارع طه حسين، كايرو فيستيفال سيتي، وحدة رقم 150-2، الدور الثاني، التجمع الخامس",
+        "metadata": {
+            "type": "branch",
+            "governorate": "القاهرة",
+            "index": 19
+        }
+    },
+    {
+        "id": "6f2ad67f-b310-4481-adec-87c69b3db33b",
+        "text": "Branch Name: فرع كونكورد التجمع\nGovernorate: القاهرة\nAddress: مول كونكورد، جنوب شارع التسعين، التجمع الخامس، القاهرة الجديدة",
+        "metadata": {
+            "type": "branch",
+            "governorate": "القاهرة",
+            "index": 20
+        }
+    },
+    {
+        "id": "29215668-1269-41b8-8387-ff311b03d900",
+        "text": "Branch Name: فرع سموحة\nGovernorate: الإسكندرية\nAddress: 15 شارع ادمون فيرمون، سموحة",
+        "metadata": {
+            "type": "branch",
+            "governorate": "الإسكندرية",
+            "index": 21
+        }
+    },
+    {
+        "id": "bd97cae8-17b1-41a1-b18d-d7ae0ff8d579",
+        "text": "Branch Name: فرع الحجاز\nGovernorate: القاهرة\nAddress: 34 شارع الحجاز - مصر الجديدة",
+        "metadata": {
+            "type": "branch",
+            "governorate": "القاهرة",
+            "index": 22
+        }
+    },
+    {
+        "id": "40281e06-81ef-435f-af41-031c3452b594",
+        "text": "Branch Name: فرع الزقازيق\nGovernorate: الشرقية\nAddress: 13 شارع طلعت حرب (شارع البحر) برج النصر بجوار بنك القاهرة",
+        "metadata": {
+            "type": "branch",
+            "governorate": "الشرقية",
+            "index": 23
+        }
+    },
+    {
+        "id": "2522aceb-8db7-4d0f-8fe6-e211333d9ed0",
+        "text": "Branch Name: فرع المنصورة / المحافظة\nGovernorate: الدقهلية\nAddress: شارع الجيش - مدينة المنصورة - بجوار مبنى نقابة المهندسين أمام مبنى المحافظة",
+        "metadata": {
+            "type": "branch",
+            "governorate": "الدقهلية",
+            "index": 24
+        }
+    },
+    {
+        "id": "cea36517-86d9-4bc1-9006-91e5e9a7d11a",
+        "text": "Branch Name: فرع الإبراهيمية / الإسكندرية\nGovernorate: الإسكندرية\nAddress: 170 الإبراهيمية طريق الحرية - بجوار شركة الكهرباء",
+        "metadata": {
+            "type": "branch",
+            "governorate": "الإسكندرية",
+            "index": 25
+        }
+    },
+    {
+        "id": "c8904719-5108-48f5-a214-e56a82d46f0d",
+        "text": "Branch Name: فرع الزمالك\nGovernorate: القاهرة\nAddress: 17 شارع حسن صبري - الزمالك",
+        "metadata": {
+            "type": "branch",
+            "governorate": "القاهرة",
+            "index": 26
+        }
+    },
+    {
+        "id": "03a0de64-cf10-4384-8da1-502777d226f4",
+        "text": "Branch Name: فرع الأقصر\nGovernorate: الأقصر\nAddress: شارع التلفزيون - أمام مبنى الإذاعة - الأقصر",
+        "metadata": {
+            "type": "branch",
+            "governorate": "الأقصر",
+            "index": 27
+        }
+    },
+    {
+        "id": "d3ba4396-0570-4651-bf02-6efe68c7bbdb",
+        "text": "Branch Name: فرع دمنهور\nGovernorate: البحيرة\nAddress: برج الأميرة شارع عبد السلام الشاذلي أمام مبنى محافظة البحيرة",
+        "metadata": {
+            "type": "branch",
+            "governorate": "البحيرة",
+            "index": 28
+        }
+    },
+    {
+        "id": "d123607a-fdcc-4d91-a76d-c3709d7404a1",
+        "text": "Branch Name: فرع مدينتي\nGovernorate: القاهرة\nAddress: مدينتي - أوبن إير مول",
+        "metadata": {
+            "type": "branch",
+            "governorate": "القاهرة",
+            "index": 29
+        }
+    },
+    {
+        "id": "1a4f6fcf-0fce-408f-9ec2-67c4db73ddc8",
+        "text": "Branch Name: فرع العجمي ستار\nGovernorate: الإسكندرية\nAddress: العجمي ستار مول - الهانوفيل - طريق الإسكندرية مطروح - بوابة رقم 2",
+        "metadata": {
+            "type": "branch",
+            "governorate": "الإسكندرية",
+            "index": 30
+        }
+    },
+    {
+        "id": "a6f792ee-a108-4b10-bd7f-0b8ab242bd54",
+        "text": "Branch Name: فرع ستريب مول\nGovernorate: الجيزة\nAddress: ستريب مول - بيفرلي هيلز - بعد ميدان جهينة - الشيخ زايد",
+        "metadata": {
+            "type": "branch",
+            "governorate": "الجيزة",
+            "index": 31
+        }
+    },
+    {
+        "id": "e900fc66-d4a0-49ff-8e1c-aeaf58532f94",
+        "text": "Branch Name: فرع سينزو مول\nGovernorate: البحر الأحمر\nAddress: الغردقة، سينزو مول، طريق سفاجا، الدور الأرضي أمام سبينيس",
+        "metadata": {
+            "type": "branch",
+            "governorate": "البحر الأحمر",
+            "index": 32
+        }
+    },
+    {
+        "id": "58c472a9-1c3d-4258-bd91-56ea47eac2bc",
+        "text": "Branch Name: فرع أسوان / المحافظة\nGovernorate: أسوان\nAddress: أسوان - ميدان المحطة - أمام محطة سكة حديد",
+        "metadata": {
+            "type": "branch",
+            "governorate": "أسوان",
+            "index": 33
+        }
+    },
+    {
+        "id": "0df4acb2-cae9-4639-b7c9-61024313f8ae",
+        "text": "Branch Name: قنا المستجدة\nGovernorate: قنا\nAddress: قنا شارع الشهيد مصطفى كمال - مبنى السنترال الإلكتروني - خلف بنك القاهرة",
+        "metadata": {
+            "type": "branch",
+            "governorate": "قنا",
+            "index": 34
+        }
+    },
+    {
+        "id": "79f3c7fa-6d15-49e1-aeca-a418b8aa085c",
+        "text": "Branch Name: سيتي سنتر ألماظة\nGovernorate: القاهرة\nAddress: سيتي سنتر ألماظة مول - طريق السويس",
+        "metadata": {
+            "type": "branch",
+            "governorate": "القاهرة",
+            "index": 35
+        }
+    },
+    {
+        "id": "06d5b267-7adf-4400-8d77-fd0b6aff15c1",
+        "text": "Branch Name: أسيوط محطة\nGovernorate: أسيوط\nAddress: بمحطة السكة الحديد بأسيوط",
+        "metadata": {
+            "type": "branch",
+            "governorate": "أسيوط",
+            "index": 36
+        }
+    },
+    {
+        "id": "58d75e4b-835f-40a2-98c2-07abcb17e048",
+        "text": "Branch Name: فرع الإسماعيلية\nGovernorate: الإسماعيلية\nAddress: شارع السلطان حسين بجوار ماكدونالدز الإسماعيلية",
+        "metadata": {
+            "type": "branch",
+            "governorate": "الإسماعيلية",
+            "index": 37
+        }
+    },
+    {
+        "id": "99666dee-6aed-41ef-8f8c-ffb6ac794ddc",
+        "text": "Branch Name: فرع السويس الدولي\nGovernorate: السويس\nAddress: شارع 23 يوليو بجوار كنيسة إنبا أنطونيوس أمام عمر أفندي",
+        "metadata": {
+            "type": "branch",
+            "governorate": "السويس",
+            "index": 38
+        }
+    }
+]

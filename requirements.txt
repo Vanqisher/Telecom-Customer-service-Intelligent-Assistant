@@ -1,0 +1,17 @@
+streamlit
+easyocr
+pypdf
+docx2txt
+python-dotenv
+langchain-classic
+langchain-community
+langchain-huggingface
+langchain-core
+langchain-chroma
+langchain-openai
+pydantic
+FlagEmbedding
+huggingface-hub
+sentence-transformers
+chromadb
+openai

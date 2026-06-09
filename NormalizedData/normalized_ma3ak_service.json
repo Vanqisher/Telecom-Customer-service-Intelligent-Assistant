@@ -1,0 +1,47 @@
+[
+    {
+        "id": "0de68a33-a586-4296-8507-27639b306143",
+        "text": "Title:\nمعاك\n\nDescription:\nهذه الخدمة متاحة لعملاء WE من الصم وضعاف السمع، حيث يقوم فريق من المختصين بالرد على استفساراتكم باستخدام لغة الإشارة من خلال مكالمة فيديو بين العميل وفريق خدمة عملاء 'معاك' على موقعنا te.eg.\n\nService URL:\nhttps://te.eg/about-te/Ma3ak",
+        "metadata": {
+            "type": "service_overview"
+        }
+    },
+    {
+        "id": "a792e619-07e7-4732-aa4c-8503e9b373a5",
+        "text": "Permissions:\nالسماح بتشغيل الكاميرا والميكروفون أثناء المحادثة\n\nNetwork Condition:\nالاتصال بشبكة إنترنت قوية ومستقرة للحصول على أفضل جودة للخدمة",
+        "metadata": {
+            "type": "requirements"
+        }
+    },
+    {
+        "id": "48d04700-6633-4252-85c8-66febb3d6bb4",
+        "text": "Android Devices Supported Browsers:\nGoogle chrome - Firefox",
+        "metadata": {
+            "type": "supported_browsers",
+            "device": "android"
+        }
+    },
+    {
+        "id": "f2c93838-413b-4177-9f12-7b1d4b754cd8",
+        "text": "iPhone Supported Browsers:\nSafari",
+        "metadata": {
+            "type": "supported_browsers",
+            "device": "iphone"
+        }
+    },
+    {
+        "id": "b76cbbc1-7e76-4bb0-9272-9b3f335d2d78",
+        "text": "Computer Supported Browsers:\nGoogle chrome - Firefox",
+        "metadata": {
+            "type": "supported_browsers",
+            "device": "pc"
+        }
+    },
+    {
+        "id": "a2671d7f-358a-4e2b-b958-cd9483e9d129",
+        "text": "Working Hours:\nمواعيد العمل من 9 صباحاً حتى 9 مساءً\n\nStart Time: 9 صباحاً\nEnd Time: 9 مساءً",
+        "metadata": {
+            "type": "working_hours"
+        }
+    }
+]

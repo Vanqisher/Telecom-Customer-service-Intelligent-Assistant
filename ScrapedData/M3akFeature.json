@@ -1,0 +1,21 @@
+{
+    "ma3ak_service": {
+        "title": "معاك",
+        "service_url": "https://te.eg/about-te/Ma3ak",
+        "description": "هذه الخدمة متاحة لعملاء WE من الصم وضعاف السمع، حيث يقوم فريق من المختصين بالرد على استفساراتكم باستخدام لغة الإشارة من خلال مكالمة فيديو بين العميل وفريق خدمة عملاء 'معاك' على موقعنا te.eg.",
+        "requirements_and_prerequisites": {
+            "permissions": "السماح بتشغيل الكاميرا والميكروفون أثناء المحادثة",
+            "supported_browsers_by_device": {
+                "android_devices": "Google chrome - Firefox",
+                "iphone_devices": "Safari",
+                "computers": "Google chrome - Firefox"
+            },
+            "network_condition": "الاتصال بشبكة إنترنت قوية ومستقرة للحصول على أفضل جودة للخدمة"
+        },
+        "working_hours": {
+            "start_time": "9 صباحاً",
+            "end_time": "9 مساءً",
+            "text": "مواعيد العمل من 9 صباحاً حتى 9 مساءً"
+        }
+    }
+}

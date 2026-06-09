@@ -1,0 +1,186 @@
+[
+    {
+        "id": "8e8cd228-e6e9-4752-9007-deff05a59d99",
+        "text": "Service Name:\nخدمة العملاء\n\nCode:\n111\n\nCost:\n14 قرش للمكالمة",
+        "metadata": {
+            "type": "service_code",
+            "service_name": "خدمة العملاء"
+        }
+    },
+    {
+        "id": "b740787f-11fc-4121-a248-aab4c0b4265f",
+        "text": "Service Name:\nخدمة الدليل\n\nCode:\n140\n\nCost:\n50 قرش للمكالمة",
+        "metadata": {
+            "type": "service_code",
+            "service_name": "خدمة الدليل"
+        }
+    },
+    {
+        "id": "7d6aeb8d-62a7-4752-aeea-1f8cf8a88f3f",
+        "text": "Service Name:\nشحن الرصيد\n\nCode:\n*555*كود الكارت#\n\nCost:\nFree",
+        "metadata": {
+            "type": "service_code",
+            "service_name": "شحن الرصيد"
+        }
+    },
+    {
+        "id": "ae64b545-62eb-4db6-9a55-eac9504daadf",
+        "text": "Service Name:\nمعرفة الرصيد\n\nCode:\n*550#\n\nCost:\nمجاناً",
+        "metadata": {
+            "type": "service_code",
+            "service_name": "معرفة الرصيد"
+        }
+    },
+    {
+        "id": "66011eac-3871-46d7-a292-74c87b7e4e50",
+        "text": "Service Name:\nتحويل رصيد\n\nCode:\n*551*رقم المستلم*المبلغ المراد تحويله#\n\nCost:\n2% من المبلغ المراد تحويله إلى الطرف الثاني بحد أدنى 20 قرش",
+        "metadata": {
+            "type": "service_code",
+            "service_name": "تحويل رصيد"
+        }
+    },
+    {
+        "id": "ef76be06-ff4b-467a-a426-08a54f886626",
+        "text": "Service Name:\nللمعرفة المتبقي من الباقة\n\nCode:\n*414#\n\nCost:\nFree",
+        "metadata": {
+            "type": "service_code",
+            "service_name": "للمعرفة المتبقي من الباقة"
+        }
+    },
+    {
+        "id": "67708d0e-8786-4e5a-8771-b2776bcca3b5",
+        "text": "Service Name:\nلمعرفة رقمك\n\nCode:\n*688#\n\nCost:\nمجاناً",
+        "metadata": {
+            "type": "service_code",
+            "service_name": "لمعرفة رقمك"
+        }
+    },
+    {
+        "id": "0989cd3e-3365-4501-b235-89d1f2d966d4",
+        "text": "Service Name:\nللاشتراك في باقات الانترنت\n\nCode:\n*999#\n\nCost:\nمجاناً",
+        "metadata": {
+            "type": "service_code",
+            "service_name": "للاشتراك في باقات الانترنت"
+        }
+    },
+    {
+        "id": "d305e2f4-3b8a-4c98-9a7b-b7111a628842",
+        "text": "Service Name:\nباقة الإنترنت اليومية\n\nCode:\n*999*01#\n\nCost:\nمجاناً",
+        "metadata": {
+            "type": "service_code",
+            "service_name": "باقة الإنترنت اليومية"
+        }
+    },
+    {
+        "id": "5e089873-9e90-4fe5-b6f4-62c1cb73ca83",
+        "text": "Service Name:\nلتجديد باقتك في أي وقت\n\nCode:\n*999*2#\n\nCost:\nمجاناً",
+        "metadata": {
+            "type": "service_code",
+            "service_name": "لتجديد باقتك في أي وقت"
+        }
+    },
+    {
+        "id": "a6396917-2fc9-408f-b41f-749f5a397400",
+        "text": "Service Name:\nباقة الإنترنت 10 جنيه\n\nCode:\n*999*10#\n\nCost:\nمجاناً",
+        "metadata": {
+            "type": "service_code",
+            "service_name": "باقة الإنترنت 10 جنيه"
+        }
+    },
+    {
+        "id": "487b0e01-a74c-4c6d-8216-1214aa836787",
+        "text": "Service Name:\nباقة الإنترنت 20 جنيه\n\nCode:\n*999*20#\n\nCost:\nمجاناً",
+        "metadata": {
+            "type": "service_code",
+            "service_name": "باقة الإنترنت 20 جنيه"
+        }
+    },
+    {
+        "id": "0adfbcb5-5383-48a3-80e7-6914c18386e0",
+        "text": "Service Name:\nباقة الإنترنت 40 جنيه\n\nCode:\n*999*40#\n\nCost:\nمجاناً",
+        "metadata": {
+            "type": "service_code",
+            "service_name": "باقة الإنترنت 40 جنيه"
+        }
+    },
+    {
+        "id": "56d7fc95-6f13-4fbf-91db-b24cb6d72df7",
+        "text": "Service Name:\nباقة الإنترنت 70 جنيه\n\nCode:\n*999*70#\n\nCost:\nمجاناً",
+        "metadata": {
+            "type": "service_code",
+            "service_name": "باقة الإنترنت 70 جنيه"
+        }
+    },
+    {
+        "id": "8cebab08-943a-4530-a7b4-1a8f03b137b6",
+        "text": "Service Name:\nباقة الإنترنت 100 جنيه\n\nCode:\n*999*100#\n\nCost:\nمجاناً",
+        "metadata": {
+            "type": "service_code",
+            "service_name": "باقة الإنترنت 100 جنيه"
+        }
+    },
+    {
+        "id": "bce1cdac-89d3-4ddd-8116-7f1ec635e419",
+        "text": "Service Name:\nباقة الإنترنت 200 جنيه\n\nCode:\n*999*200#\n\nCost:\nمجاناً",
+        "metadata": {
+            "type": "service_code",
+            "service_name": "باقة الإنترنت 200 جنيه"
+        }
+    },
+    {
+        "id": "7f4974d9-3b12-4c2c-a1c7-4b0df6eca345",
+        "text": "Service Name:\nللاشتراك بباقة 1 جيجا لمرة واحدة\n\nCode:\n*999*101#\n\nCost:\nمجاناً",
+        "metadata": {
+            "type": "service_code",
+            "service_name": "للاشتراك بباقة 1 جيجا لمرة واحدة"
+        }
+    },
+    {
+        "id": "3e61b98f-bd9b-47c3-bc65-0241d94e714e",
+        "text": "Service Name:\nلإلغاء باقة الإنترنت\n\nCode:\n*999*0#\n\nCost:\nمجاناً",
+        "metadata": {
+            "type": "service_code",
+            "service_name": "لإلغاء باقة الإنترنت"
+        }
+    },
+    {
+        "id": "1ff829ab-7d03-44eb-a14c-e916cbc5e088",
+        "text": "Service Name:\nللاشتراك في باقات سوبر كيكس\n\nCode:\n*707#\n\nCost:\nمجاناً",
+        "metadata": {
+            "type": "service_code",
+            "service_name": "للاشتراك في باقات سوبر كيكس"
+        }
+    },
+    {
+        "id": "e0786937-36fe-4f1c-bbbc-6f10f095a702",
+        "text": "Service Name:\nللاشتراك في باقات تظبيط\n\nCode:\n*660#\n\nCost:\nمجاناً",
+        "metadata": {
+            "type": "service_code",
+            "service_name": "للاشتراك في باقات تظبيط"
+        }
+    },
+    {
+        "id": "f8b62723-24aa-4e6e-9d7b-39083409312e",
+        "text": "Service Name:\nللاشتراك في باقات وي ميكس\n\nCode:\n*100#\n\nCost:\nمجاناً",
+        "metadata": {
+            "type": "service_code",
+            "service_name": "للاشتراك في باقات وي ميكس"
+        }
+    },
+    {
+        "id": "e4c680fc-fa68-4255-ab0c-79e7d38ec30d",
+        "text": "Service Name:\nخدمة سلفني\n\nCode:\n*504#\n\nCost:\n50 قرش",
+        "metadata": {
+            "type": "service_code",
+            "service_name": "خدمة سلفني"
+        }
+    },
+    {
+        "id": "8543368e-ddfa-41c0-84e7-62f10dc7fed0",
+        "text": "Service Name:\nخدمة كلمني\n\nCode:\n*515#\n\nCost:\n5 طلبات مجاناً يومياً",
+        "metadata": {
+            "type": "service_code",
+            "service_name": "خدمة كلمني"
+        }
+    }
+]

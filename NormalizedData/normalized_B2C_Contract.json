@@ -1,0 +1,174 @@
+[
+    {
+        "id": "b75cc70a-d2db-4403-bc97-ae1dd67b4731",
+        "text": "Contract Title:\nعقد شروط تقديم خدمات الاتصالات\n\nParties:\nالعقد يشكل اتفاقية قانونية بين الشركة والمشترك (العميل) بموجب التوقيع واستمارة طلب الخدمة.",
+        "metadata": {
+            "type": "contract_overview"
+        }
+    },
+    {
+        "id": "af26fb96-431b-44a0-8df9-e23a8665e579",
+        "text": "الخدمة:\nأي من خدمات توصيل العميل بشبكة المصرية للاتصالات الثابتة أو المحمول لإرسال واستقبال المكالمات و/أو البيانات عبر أنظمة الاشتراك النظامية أو المدفوعة مقدماً.",
+        "metadata": {
+            "type": "definition",
+            "term": "الخدمة"
+        }
+    },
+    {
+        "id": "d18c0083-9316-4c27-848f-27c78da765c2",
+        "text": "العميل:\nالمستخدم النهائي للخدمة الموقع فعلياً على هذا العقد.",
+        "metadata": {
+            "type": "definition",
+            "term": "العميل"
+        }
+    },
+    {
+        "id": "743d2e3d-1786-4154-8a37-7c594677bfdd",
+        "text": "الجهاز:\nالجهاز القومي لتنظيم الاتصالات (NTRA).",
+        "metadata": {
+            "type": "definition",
+            "term": "الجهاز"
+        }
+    },
+    {
+        "id": "95f4c463-86fa-49a9-a438-e944d75d26d3",
+        "text": "Duration:\nسنة واحدة تبدأ من تاريخ تفعيل الخدمة، وتجدد تلقائياً لمدد مماثلة.\n\nTermination by Customer:\nيجب على العميل إخطار الشركة وسداد كافة المستحقات وفقاً لفاتورة التسوية النهائية.\n\nTemporary Residency Rule:\nإذا كانت إقامة العميل في جمهورية مصر العربية مؤقتة، تكون مدة التعاقد هي مدة الإقامة المصرح بها داخلياً.\n\nData Accuracy Responsibility:\nالعميل مسؤول عن صحة البيانات والمستندات، ويحق للشركة وقف الخدمة أو إنهاء التعاقد إذا ثبت خلاف ذلك.",
+        "metadata": {
+            "type": "contract_scope"
+        }
+    },
+    {
+        "id": "1824a131-71cb-4769-bddb-7165070b3a4a",
+        "text": "Personal Use:\nالخدمة شخصية والعميل مسؤول عن كافة الاتصالات حتى في حالة الفقد والسرقة مالم يقم بإخطار الشركة.\n\nOwnership Transfer:\nلا يحق التنازل للغير أو إعادة البيع بدون موافقة كتابية وسداد الرسوم، وإلا ظل العميل مسؤولاً قانونياً.",
+        "metadata": {
+            "type": "transfer_and_theft"
+        }
+    },
+    {
+        "id": "7f5e38a7-4b91-4463-9e25-b4f1056a7333",
+        "text": "Pricing Authority:\nتحدد الشركة الباقات والتعريفة وتعديلاتها بموافق الجهاز (NTRA).\n\nNotification Method:\nتسري التعديلات من تاريخ إعلانها للعميل عبر رسالة نصية (SMS) أو أي من وسائل الإعلام.\n\nCustomer Objection:\nللمشترك الحق في الاعتراض وإنهاء العقد بعد سداد المستحقات إذا لم يوافق على تعديل التعريفة.",
+        "metadata": {
+            "type": "services_tariff"
+        }
+    },
+    {
+        "id": "b003cf88-58b9-4270-9af2-0ef902b26e1b",
+        "text": "Line Activation Method:\nالاتصال بخدمة العملاء على رقم 111 والإجابة على سؤال التفعيل.\nEgyptian Question:\nاسم الجد من الأم.\nForeign Question:\nتاريخ انتهاء صلاحية مستند تحقيق الشخصية.\nDeadline Days: 90\nPenalty:\nإيقاف الخط إيقافاً نهائياً.",
+        "metadata": {
+            "type": "line_activation"
+        }
+    },
+    {
+        "id": "84497e22-3164-4e2d-8bff-a2ffdc203918",
+        "text": "Billing Grace Period: 21 days\nDelay Penalty:\nيحق للشركة إضافة غرامة تأخير تحددها بنظمها المالية بموافقة الجهاز.\nNon-Payment Penalty:\nوقف الخدمة بعد الإخطار، وفي حال استمرار عدم السداد يعتبر إنهاءً للعقد وتنازلاً عن الرقم وسحب الحقوق.",
+        "metadata": {
+            "type": "billing_and_payment"
+        }
+    },
+    {
+        "id": "b89e76fc-0bab-4d5c-8678-aac05fd11db9",
+        "text": "Prepaid Inactivity Limit: 105 days\nPostpaid Inactivity Limit: 195 days\nData Line Limit: 1 year\nAction:\nيحق للشركة سحب الرقم وإعادة تشغيله لعملاء آخرين في حال عدم الاستهلاك لهذه المدد.",
+        "metadata": {
+            "type": "line_reclamation_rules"
+        }
+    },
+    {
+        "id": "0a8cb596-0c5c-400a-afe0-9351d8ffa402",
+        "text": "Prohibition 1:\nتغيير طبيعة الخدمة أو تشفيرها دون موافقة كتابية مسبقة من الجهات المعنية.",
+        "metadata": {
+            "type": "prohibition",
+            "index": 0
+        }
+    },
+    {
+        "id": "a22593b3-9f28-4ce1-80d6-4787a37241ac",
+        "text": "Prohibition 2:\nاستخدام الخدمة في تمرير المكالمات الدولية.",
+        "metadata": {
+            "type": "prohibition",
+            "index": 1
+        }
+    },
+    {
+        "id": "75fa66aa-5e34-4a21-a089-8cdc77fcbc9d",
+        "text": "Invoice Objection Period: 30 days\nInternational Roaming:\nالعميل ملزم بسداد فواتير التجوال الدولي، وتقديم أي تأمينات تطلبها الشركة لضمان الخدمات الدولية.",
+        "metadata": {
+            "type": "roaming_and_international"
+        }
+    },
+    {
+        "id": "fc358bd6-9ebb-4f15-931f-745344e7f79d",
+        "text": "Service Level:\nتقدم الخدمة وفقاً للشروط الفنية ومستوى الخدمة المنصوص عليه في ترخيص الجهاز القومي لتنظيم الاتصالات.\n\nNumber Change Notice Period:\nأسبوع عمل على الأقل قبل تفعيل الرقم الجديد في حال تعديل الترقيم.",
+        "metadata": {
+            "type": "technical_conditions"
+        }
+    },
+    {
+        "id": "2ded1f5f-0a23-4902-8a15-0004e654f5aa",
+        "text": "Force Majeure Factor 1:\nالظروف الجغرافية والمناخية",
+        "metadata": {
+            "type": "force_majeure",
+            "index": 0
+        }
+    },
+    {
+        "id": "374d45a7-a067-4db5-b295-c030c6beac7d",
+        "text": "Force Majeure Factor 2:\nتدفق التيار الكهربائي",
+        "metadata": {
+            "type": "force_majeure",
+            "index": 1
+        }
+    },
+    {
+        "id": "f202de79-c239-4c3f-87c5-5ae311dcb8a8",
+        "text": "Force Majeure Factor 3:\nأسباب خارجة عن الإرادة أو القوة القاهره",
+        "metadata": {
+            "type": "force_majeure",
+            "index": 2
+        }
+    },
+    {
+        "id": "37278c0b-3298-422e-bee9-90da8804441e",
+        "text": "Billing:\nتسدد فواتير الإنترنت شهرياً طبقاً لتاريخ الاستحقاق، ويحق للشركة وقف الخدمة كلياً أو جزئياً عند عدم السداد.\n\nInstallation:\nيتم التوصيل للمقر المحدد، ويلتزم العميل بتمكين الشركة من الدخول للتركيب، والعميل مسؤول عن قانونية حيازته للمقر.\n\nIPTV Disclaimer:\nخدمة البث التلفزيوني الرقمي IPTV مقدمة من طرف ثالث، ولا تتحمل الشركة مسؤولية سحب أو تبديل أي قنوات أو برامج.",
+        "metadata": {
+            "type": "fixed_line_and_iptv"
+        }
+    },
+    {
+        "id": "32ccb782-7a5e-4d45-a58b-1e9a6b30b4f5",
+        "text": "IPTV Restriction 1:\nالخدمة مقدمة لغرض الاستعمال الخاص فقط ولا يجوز عرضها عامة أو إعادة بثها.",
+        "metadata": {
+            "type": "iptv_restriction",
+            "index": 0
+        }
+    },
+    {
+        "id": "a488ad0f-a839-46a4-ac08-4c8f37749a6e",
+        "text": "IPTV Restriction 2:\nيحظر إعادة برمجة أو فك أو إعادة تجميع أجهزة أو برامج الشركة.",
+        "metadata": {
+            "type": "iptv_restriction",
+            "index": 1
+        }
+    },
+    {
+        "id": "1d2cdce9-6215-465c-876b-32ee0bae4a4b",
+        "text": "IPTV Restriction 3:\nيحق للشركة تعطيل بعض وظائف الأجهزة لمنع النسخ غير المصرح به.",
+        "metadata": {
+            "type": "iptv_restriction",
+            "index": 2
+        }
+    },
+    {
+        "id": "239aad6f-ba69-426b-bfe5-573528397423",
+        "text": "Router Warranty:\nالشركة غير مسؤولة عن أي عطل فني في الراوتر أو الأجهزة الطرفية بعد انقضاء فترة الضمان.\n\nData Privacy:\nتلتزم الشركة بسرية بيانات العميل إلا إذا كان الإفصاح تنفيذاً للقانون أو بطلب قضائي/إداري.\n\nCall Recording:\nيقر العميل بحق الشركة في تسجيل المكالمات الواردة لمركز خدمة العملاء لضمان الحقوق.\n\nContract Modifications:\nيحق للشركة تعديل بنود العقد بموافقة الجهاز، وتصبح ملزمة للعميل بمجرد النشر على الموقع الإلكتروني.\n\nTaxes:\nيتحمل العميل الضرائب المقررة بشأن الخدمات المقدمة.",
+        "metadata": {
+            "type": "general_terms"
+        }
+    },
+    {
+        "id": "135342b1-7af9-4546-a3c3-0d5b509e4880",
+        "text": "Friendly Settlement Days: 5\nNTRA Hotline: 155\nNTRA Toll Free: 08003330333\nGoverning Law:\nالقانون المصري\nCourts:\nالمحاكم المصرية الاقتصادية",
+        "metadata": {
+            "type": "dispute_resolution"
+        }
+    }
+]

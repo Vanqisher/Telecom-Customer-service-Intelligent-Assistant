@@ -1,0 +1,119 @@
+[
+    {
+        "id": "34a91f8b-74eb-48cd-8e25-f2de89b340e6",
+        "text": "Provider (Arabic):\nوي\n\nProvider (English):\nWE\n\nDescription:\nخدمة الدفع من خلال WE",
+        "metadata": {
+            "type": "payment_method",
+            "provider_arabic": "وي",
+            "provider_english": "WE"
+        }
+    },
+    {
+        "id": "7963de2a-178a-4e2f-9078-f582e3719eef",
+        "text": "Provider (Arabic):\nفوري\n\nProvider (English):\nFawry\n\nDescription:\nخدمة الدفع من خلال فوري",
+        "metadata": {
+            "type": "payment_method",
+            "provider_arabic": "فوري",
+            "provider_english": "Fawry"
+        }
+    },
+    {
+        "id": "d2b57585-cddb-4538-854c-0f991d6b212f",
+        "text": "Provider (Arabic):\nبي\n\nProvider (English):\nBee\n\nDescription:\nخدمة الدفع من خلال Bee",
+        "metadata": {
+            "type": "payment_method",
+            "provider_arabic": "بي",
+            "provider_english": "Bee"
+        }
+    },
+    {
+        "id": "c5cc7560-2887-477d-a25c-196dcf1f7604",
+        "text": "Provider (Arabic):\nالبريد المصري\n\nProvider (English):\nEgypt Post\n\nDescription:\nخدمة الدفع من خلال البريد المصري",
+        "metadata": {
+            "type": "payment_method",
+            "provider_arabic": "البريد المصري",
+            "provider_english": "Egypt Post"
+        }
+    },
+    {
+        "id": "b634f835-e8ae-4967-9f99-cd4c33bc1f3d",
+        "text": "Provider (Arabic):\nمصاري\n\nProvider (English):\nMasary\n\nDescription:\nخدمة الدفع من خلال مصاري",
+        "metadata": {
+            "type": "payment_method",
+            "provider_arabic": "مصاري",
+            "provider_english": "Masary"
+        }
+    },
+    {
+        "id": "3e8d1b27-ac67-4cd3-918b-ce2c487f0722",
+        "text": "Provider (Arabic):\nأمان\n\nProvider (English):\nAman\n\nDescription:\nخدمة الدفع من خلال أمان",
+        "metadata": {
+            "type": "payment_method",
+            "provider_arabic": "أمان",
+            "provider_english": "Aman"
+        }
+    },
+    {
+        "id": "39932f1b-86b6-40a2-b7bb-bf0cfe158c00",
+        "text": "Provider (Arabic):\nخدماتي\n\nProvider (English):\nKhadamaty\n\nDescription:\nخدمة الدفع من خلال خدماتي",
+        "metadata": {
+            "type": "payment_method",
+            "provider_arabic": "خدماتي",
+            "provider_english": "Khadamaty"
+        }
+    },
+    {
+        "id": "f02f90f0-c6b4-4b1b-9ce3-a3592ba0e149",
+        "text": "Provider (Arabic):\nممكن\n\nProvider (English):\nMokan\n\nDescription:\nخدمة الدفع من خلال ممكن",
+        "metadata": {
+            "type": "payment_method",
+            "provider_arabic": "ممكن",
+            "provider_english": "Mokan"
+        }
+    },
+    {
+        "id": "f02702bb-85ef-4efd-87a5-8a55ad99c388",
+        "text": "Provider (Arabic):\nضامن\n\nProvider (English):\nDamen\n\nDescription:\nخدمة الدفع من خلال ضامن",
+        "metadata": {
+            "type": "payment_method",
+            "provider_arabic": "ضامن",
+            "provider_english": "Damen"
+        }
+    },
+    {
+        "id": "77959a8b-134f-41fe-8c60-bb014fbfcf1a",
+        "text": "Provider (Arabic):\nأوباي\n\nProvider (English):\nOPay\n\nDescription:\nخدمة الدفع من خلال OPay",
+        "metadata": {
+            "type": "payment_method",
+            "provider_arabic": "أوباي",
+            "provider_english": "OPay"
+        }
+    },
+    {
+        "id": "7961bb50-e50d-46f7-b6eb-5b94bb17a509",
+        "text": "Provider (Arabic):\nسوبر باي\n\nProvider (English):\nSuperPay\n\nDescription:\nخدمة الدفع من خلال Superpay",
+        "metadata": {
+            "type": "payment_method",
+            "provider_arabic": "سوبر باي",
+            "provider_english": "SuperPay"
+        }
+    },
+    {
+        "id": "48f6b41e-0bb2-42a4-bde3-b6e3d85a8972",
+        "text": "Provider (Arabic):\nخالص\n\nProvider (English):\nKhales\n\nDescription:\nخدمة الدفع من خلال Khales",
+        "metadata": {
+            "type": "payment_method",
+            "provider_arabic": "خالص",
+            "provider_english": "Khales"
+        }
+    },
+    {
+        "id": "8dd37861-8378-4e2e-b939-2d64faa7f180",
+        "text": "Provider (Arabic):\nكاش كول\n\nProvider (English):\nCashcall\n\nDescription:\nخدمة الدفع من خلال Cashcall",
+        "metadata": {
+            "type": "payment_method",
+            "provider_arabic": "كاش كول",
+            "provider_english": "Cashcall"
+        }
+    }
+]

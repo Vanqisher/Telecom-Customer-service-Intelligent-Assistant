@@ -1,0 +1,41 @@
+[
+    {
+        "id": "5042f3aa-1d33-455e-8fb3-d9d1f6722550",
+        "text": "Title:\nمحادثة خدمة العملاء\n\nSubtitle:\nهل تريد التحدث إلى خدمة العملاء؟\n\nDescription:\nهنا يتم الرد على استفساراتك بطريقة أسرع وأسهل. يمكنك اختيار أي من الدعم الفني أو خدمة العملاء.",
+        "metadata": {
+            "type": "support_overview"
+        }
+    },
+    {
+        "id": "17d407f6-ae87-4885-baa8-7c1fc89867ad",
+        "text": "Hotline 1:\n111",
+        "metadata": {
+            "type": "hotline",
+            "index": 0
+        }
+    },
+    {
+        "id": "6921c4cf-8dd9-44d5-afd2-f34afa80fdac",
+        "text": "Hotline 2:\n01555000111",
+        "metadata": {
+            "type": "hotline",
+            "index": 1
+        }
+    },
+    {
+        "id": "ab26a7ca-7533-43e8-966e-44bc3448285a",
+        "text": "Hotline 3:\n19777",
+        "metadata": {
+            "type": "hotline",
+            "index": 2
+        }
+    },
+    {
+        "id": "fac75b38-5ffc-44fa-8451-f5bd6fec2b70",
+        "text": "Support Email 1:\nCustomer.care@te.eg",
+        "metadata": {
+            "type": "email",
+            "index": 0
+        }
+    }
+]
