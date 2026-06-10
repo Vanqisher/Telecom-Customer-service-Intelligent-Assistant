@@ -1,3 +1,19 @@
+# =============================================================================
+# WE Intelligent Assistant — Streamlit UI
+# =============================================================================
+# الملف ده هو الواجهة البصرية الكاملة للـ chatbot.
+# بيشتغل فوق الـ RAG Pipeline اللي في LangChainV.py
+#
+# المكونات الرئيسية:
+#   - OCR Engine      : EasyOCR لاستخراج النص من الصور
+#   - File Parser     : بيقرأ TXT / PDF / DOCX
+#   - Custom CSS      : تصميم WE بألوان البنفسجي والداكن
+#   - Session State   : بيحتفظ بالمحادثة والـ assistant بين الـ reruns
+#   - Sidebar         : معلومات الشركة والـ features
+#   - Chat Area       : بيعرض الرسائل ويولد الردود
+#   - Input Row       : chat input + file uploader + image uploader
+# =============================================================================
+
 import streamlit as st
 import time
 from LangChainV import WEAssistant, load_docs, RAGPipeline, cfg
@@ -6,6 +22,19 @@ from pypdf import PdfReader
 import docx2txt
 import easyocr
 
+# =============================================================================
+# OCR ENGINE — EasyOCR
+# =============================================================================
+# بنستخدم EasyOCR لاستخراج النص من الصور (عربي + إنجليزي).
+#
+# load_ocr_model():
+#   محمية بـ @st.cache_resource عشان ما تتحملش أكتر من مرة —
+#   الموديل كبير وبياخد وقت، فبيتحمل مرة واحدة وبيفضل في الذاكرة.
+#   gpu=False عشان نضمن الاستقرار على الأجهزة العادية.
+#
+#   بعد الحمل، بنحطه في st.session_state.ocr_reader
+#   عشان يكون accessible من أي مكان في الكود.
+# =============================================================================
 @st.cache_resource
 def load_ocr_model():
     # 'gpu=False' forces it to use CPU, which is more stable on most Windows setups
@@ -14,6 +43,21 @@ def load_ocr_model():
 # Store the reader in session_state so it stays loaded
 if "ocr_reader" not in st.session_state:
     st.session_state.ocr_reader = load_ocr_model()
+
+# =============================================================================
+# extract_text_from_image()
+# =============================================================================
+# بتاخد الصورة المرفوعة وبترجع النص المستخرج منها كـ string.
+#
+# الخطوات:
+#   1. بتاخد الـ bytes من الملف المرفوع
+#   2. بتبعتهم لـ EasyOCR reader
+#   3. بتجمع قائمة النصوص المكتشفة في string واحد
+#   4. بتطبع النتيجة في الـ terminal بلون أحمر للـ debugging
+#
+# ملاحظة: في الكود في كود ميت (dead code) بعد الـ return في الـ except —
+# ده بقايا من Tesseract OCR اللي اتاستبدل بـ EasyOCR.
+# =============================================================================
 def extract_text_from_image(uploaded_file):
     try:
         # EasyOCR works directly with the file bytes
@@ -77,6 +121,18 @@ def extract_text_from_image(uploaded_file):
         return ""
 
 
+# =============================================================================
+# extract_text_from_file()
+# =============================================================================
+# بتقرأ الملفات النصية المرفوعة وبترجع محتواها كـ string.
+# بتدعم 3 أنواع:
+#   - TXT  : قراءة مباشرة بـ UTF-8
+#   - PDF  : استخراج النص صفحة صفحة بـ pypdf
+#   - DOCX : استخراج النص بـ docx2txt
+#
+# لو النوع مش مدعوم بترجع None.
+# لو حصل error بتعرض رسالة للمستخدم وبترجع None.
+# =============================================================================
 def extract_text_from_file(uploaded_file):
     """دالة لقراءة الملفات المرفوعة وتحويلها إلى نص صافي"""
     file_name = uploaded_file.name.lower()
@@ -106,6 +162,19 @@ def extract_text_from_file(uploaded_file):
         return None
 
 
+# =============================================================================
+# HELPER FUNCTIONS
+# =============================================================================
+# escape_markdown():
+#   في الأصل كانت بتعمل escaping للـ markdown characters عشان ما تكسرش
+#   عرض Streamlit. دلوقتي بترجع النص كما هو بعد ما اتقرر إن الـ escaping
+#   كان بيكسر الـ links والـ bold text بدل ما يصلح حاجة.
+#
+# get_image_base64():
+#   بتحول ملف صورة على الـ disk لـ base64 string
+#   عشان نقدر نضمنها inline في الـ HTML بدون ما نحتاج static file server.
+#   لو الملف مش موجود بترجع string فاضي بدل ما يكسر الكود.
+# =============================================================================
 def escape_markdown(text):
     # Fixed: Removed the aggressive escaping that was breaking links and bold text
     # Only escape characters that truly break Streamlit's markdown rendering if necessary
@@ -133,9 +202,28 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# ─────────────────────────────────────────────
+# =============================================================================
 # 3. CUSTOM CSS
-# ─────────────────────────────────────────────
+# =============================================================================
+# كل التصميم البصري للتطبيق محدد هنا في CSS block واحد.
+# بيتحقن في الصفحة بـ st.markdown(unsafe_allow_html=True).
+#
+# الألوان المستخدمة (CSS Variables):
+#   --we-purple       : البنفسجي الأساسي لـ WE (#5b0fa8)
+#   --we-accent       : بنفسجي أفتح للـ highlights (#9b59f7)
+#   --chat-bg         : خلفية منطقة الشات (#f9f7fd)
+#   --text-dark       : لون النص الداكن (#1a0535)
+#
+# أهم المكونات المستايلة:
+#   - .we-header         : الهيدر العلوي مع الـ glow effects
+#   - stChatMessage      : فقاعات الرسائل (user = بنفسجي فاتح / assistant = أبيض)
+#   - stChatInput        : مربع الكتابة بتصميم داكن
+#   - stSidebar          : الـ sidebar الأبيض
+#   - .welcome-container : شاشة الترحيب الأولى
+#   - .chip              : الـ suggestion chips في شاشة الترحيب
+#   - .support-card      : كارت رقم الدعم الفني (111)
+#   - stFileUploader     : أزرار الـ upload بتصميم WE
+# =============================================================================
 custom_css = """
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Outfit:wght@300;400;500;600;700&display=swap');
@@ -669,9 +757,22 @@ div[data-testid="stFileUploader"] div[data-testid="stFileUploaderFile"] {
 st.markdown(custom_css, unsafe_allow_html=True)
 
 
-# ─────────────────────────────────────────────
+# =============================================================================
 # 4. SESSION STATE & INITIALIZATION
-# ─────────────────────────────────────────────
+# =============================================================================
+# Streamlit بيعيد تشغيل الكود من الأول مع كل interaction —
+# عشان كده بنحتاج نحفظ الـ state بين الـ reruns في st.session_state.
+#
+# initialize_assistant():
+#   محمية بـ @st.cache_resource عشان الـ RAG Pipeline يتبنى مرة واحدة بس —
+#   لأنه بيحمّل موديلات embeddings وبيفتح Chroma DB وده بياخد وقت.
+#   بيرجع WEAssistant جاهز للاستخدام.
+#
+# الـ session_state المستخدمة:
+#   - assistant       : الـ WEAssistant object (مشترك بين كل الـ reruns)
+#   - messages        : list من dict (role + content) — تاريخ المحادثة للعرض
+#   - is_generating   : flag بيمنع إرسال رسالة تانية وهو لسه بيولد رد
+# =============================================================================
 @st.cache_resource
 def initialize_assistant():
     # load docs
@@ -691,9 +792,16 @@ if "messages" not in st.session_state:
 if "is_generating" not in st.session_state:
     st.session_state.is_generating = False
 
-# ─────────────────────────────────────────────
+# =============================================================================
 # 5. SIDEBAR
-# ─────────────────────────────────────────────
+# =============================================================================
+# الـ sidebar بيحتوي على:
+#   - Logo + اسم الشركة
+#   - زر "مسح المحادثة": بيمسح الـ messages وتاريخ الـ assistant
+#     وبيعمل rerun عشان تتعمل refresh للصفحة
+#   - Features list: قائمة بمميزات الـ chatbot (static, display only)
+#   - Support Card: بيعرض رقم خدمة العملاء 111
+# =============================================================================
 with st.sidebar:
     # Logo + Brand
     st.markdown(f"""
@@ -746,9 +854,13 @@ with st.sidebar:
     </div>
     """, unsafe_allow_html=True)
 
-# ─────────────────────────────────────────────
+# =============================================================================
 # 6. HEADER
-# ─────────────────────────────────────────────
+# =============================================================================
+# الهيدر العلوي الثابت — بيظهر في كل الصفحة.
+# بيعرض: Logo + العنوان + الـ subtitle + badge "AI Powered"
+# اللوجو بيتحول لـ base64 عشان يتضمن inline في الـ HTML.
+# =============================================================================
 st.markdown(f"""
 <div class="we-header">
     <div class="we-header-left">
@@ -762,9 +874,26 @@ st.markdown(f"""
 </div>
 """, unsafe_allow_html=True)
 
-# ─────────────────────────────────────────────
+# =============================================================================
 # 7. CHAT AREA
-# ─────────────────────────────────────────────
+# =============================================================================
+# منطقة عرض المحادثة — بتشتغل بـ حالتين:
+#
+# الحالة 1 — Welcome Screen (لما messages فاضية):
+#   بيعرض شاشة ترحيب مع اقتراحات (chips) للعميل يبدأ بيها.
+#   الـ chips decorative بس (مش interactive).
+#
+# الحالة 2 — Active Chat:
+#   أ. بيعرض كل الرسائل المحفوظة في st.session_state.messages
+#
+#   ب. لو آخر رسالة من العميل وis_generating=True:
+#      - بيقرأ الـ prompt الكامل (ممكن يكون فيه محتوى ملف مرفق)
+#        من current_rag_prompt أو من نص الرسالة مباشرة
+#      - بيبعته للـ assistant.chat() ويجيب الرد
+#      - بيعمل word-by-word streaming animation بـ time.sleep(0.01)
+#      - بيحفظ الرد في messages
+#      - بيعمل st.rerun() عشان يعيد رسم الـ UI بالرد الجديد
+# =============================================================================
 if not st.session_state.messages:
     # Welcome Screen
     st.markdown(f"""
@@ -820,13 +949,37 @@ else:
         st.session_state.is_generating = False
         st.rerun()
 
-# ─────────────────────────────────────────────
+# =============================================================================
 # 8. CHAT INPUT & PROCESSING
-# ─────────────────────────────────────────────
-
-# ─────────────────────────────────────────────
-# 8. CHAT INPUT & PROCESSING
-# ─────────────────────────────────────────────
+# =============================================================================
+# منطقة الإدخال في أسفل الصفحة — بتتكون من صفين:
+#
+# الصف الأول (action row) — 4 أعمدة:
+#   - col1: File Uploader (TXT / PDF / DOCX)
+#   - col2: Image Uploader (PNG / JPG / JPEG)
+#   - col3: زر Clear سريع (نفس وظيفة زر الـ sidebar)
+#   - col4: زر "إرسال المرفق" — بيظهر بس لما في ملف أو صورة مرفوعة
+#
+# الـ file_uploader_key / image_uploader_key:
+#   Streamlit مش بيعمل reset للـ uploaders تلقائياً بعد الإرسال —
+#   عشان كده بنزود الـ key بـ 1 بعد كل إرسال لإجبار Streamlit
+#   على إعادة تهيئة الـ widget من الصفر.
+#
+# الصف التاني:
+#   - st.chat_input: مربع الكتابة الأساسي
+#
+# PROCESSING LOGIC — لما يتكتب رسالة أو يتضغط زر الإرسال:
+#   1. بيشيل intent ويبني actual_input
+#   2. لو في ملف → extract_text_from_file()
+#      لو في صورة → extract_text_from_image()
+#   3. بيبني rag_prompt (اللي بيروح للـ LLM):
+#      - لو في نص مستخرج: actual_input + محتوى الملف
+#      - لو مفيش نص مستخرج + مفيش input: رسالة fallback للـ LLM
+#   4. بيبني ui_content (اللي بيتعرض للمستخدم في الـ chat): اسم الملف + الرسالة
+#   5. بيحفظ rag_prompt في current_rag_prompt
+#   6. بيضيف رسالة العميل للـ messages
+#   7. بيعمل st.rerun() → الـ chat area بيلاقي is_generating=True ويولد الرد
+# =============================================================================
 
 # uploader reset state
 if "file_uploader_key" not in st.session_state:
