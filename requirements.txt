@@ -15,7 +15,3 @@ huggingface-hub
 sentence-transformers
 chromadb
 openai
-chromadb==0.4.24
-protobuf==4.25.3
-opentelemetry-api
-opentelemetry-sdk
