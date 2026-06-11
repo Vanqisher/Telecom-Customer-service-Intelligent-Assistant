@@ -1,6 +1,7 @@
 Demo_Link :https://huggingface.co/spaces/marwanhatem/WE_RAG
 
-***Note***
-Uploading files isn't working in the demo link because of server storage limitations issues , But it works locally just fine.
+***Notes***
+- PC Only
+- Uploading files isn't working in the demo link because of server storage limitations issues , But it works locally just fine.
 
 
