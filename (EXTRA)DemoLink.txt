@@ -3,5 +3,6 @@ Demo_Link :https://huggingface.co/spaces/marwanhatem/WE_RAG
 ***Notes***
 - PC Only
 - Uploading files isn't working in the demo link because of server storage limitations issues , But it works locally just fine.
+- Use Dark Mode for better UI
 
 
